@@ -116,8 +116,8 @@ venv/
 ```
 ### ¿Por qué es importante en proyectos de desarrollo?
 El uso correcto de `.gitignore` es clave por varias razones:
-•	Seguridad: evita subir archivos sensibles como credenciales en `.env` o configuraciones privadas.
-•	Orden: impide que archivos temporales o generados inflen el historial del repositorio.
-•	Rendimiento: repositorios más pequeños se clonan y gestionan más rápido.
-•	Colaboración: todos los miembros del equipo comparten un mismo criterio sobre qué se versiona y qué no, reduciendo conflictos y ruido en los commits.
+  - Seguridad: evita subir archivos sensibles como credenciales en `.env` o configuraciones privadas.
+  - Orden: impide que archivos temporales o generados inflen el historial del repositorio. 
+  - Rendimiento: repositorios más pequeños se clonan y gestionan más rápido.
+  - Colaboración: todos los miembros del equipo comparten un mismo criterio sobre qué se versiona y qué no, reduciendo conflictos y ruido en los commits.
 
