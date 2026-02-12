@@ -113,8 +113,8 @@ venv/
 # Ignora todos los .txt excepto README.txt
 *.txt
 !README.txt
-
-¿Por qué es importante en proyectos de desarrollo?
+```
+### ¿Por qué es importante en proyectos de desarrollo?
 El uso correcto de `.gitignore` es clave por varias razones:
 •	Seguridad: evita subir archivos sensibles como credenciales en `.env` o configuraciones privadas.
 •	Orden: impide que archivos temporales o generados inflen el historial del repositorio.
