@@ -1,5 +1,7 @@
 # repovc2026-1
 # Repositorio del curso Visión por Computador
- Aqui va el contenido
+## Autor: Luis Fernando Borrero Perales
 
- Desde la web
+### Docente. José Francisco Ruíz Muñoz
+--- 
+Ingresar a la carpeta `Tarea 01 Ambiente Virtuales` para visualizar la primera entrega.
