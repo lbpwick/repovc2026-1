@@ -1,6 +1,4 @@
 """
-demo_data_image_python.py
-
 Demostración integrada de:
 - Análisis de datos con NumPy y Pandas
 - Visualización con Matplotlib
