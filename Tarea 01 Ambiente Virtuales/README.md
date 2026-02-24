@@ -72,35 +72,34 @@ Procesamiento de imágenes: Funcionalidades básicas con OpenCV y Pillow."
    - Redactar y mejorar secciones explicativas del **README.md**
 
 
-
 ## Archivo `.gitignore` en este proyecto
 
 ### ¿Qué es un archivo `.gitignore`?
 
-Un archivo `.gitignore` es un archivo de texto que le indica a Git qué archivos y carpetas debe **ignorar** dentro de un repositorio. [web:66][web:69]  
-Es decir, aunque existan en tu directorio de trabajo, Git no los tendrá en cuenta cuando hagas `git status`, `git add` o `git commit`. [web:67][web:76]
+Un archivo `.gitignore` es un archivo de texto que le indica a Git qué archivos y carpetas debe **ignorar** dentro de un repositorio.  
+Es decir, aunque existan en tu directorio de trabajo, Git no los tendrá en cuenta cuando hagas `git status`, `git add` o `git commit`.
 
 ### ¿Para qué sirve?
 
-Sirve para excluir del control de versiones archivos que no aportan valor al código fuente, por ejemplo: [web:68][web:70]
+Sirve para excluir del control de versiones archivos que no aportan valor al código fuente, por ejemplo:
 
-- Archivos temporales generados por el sistema operativo (`.DS_Store`, `Thumbs.db`). [web:68]  
-- Archivos de compilación o build (`build/`, `dist/`). [web:68]  
-- Entornos virtuales (`venv/`, `.env/`). [web:71][web:77]  
-- Archivos de configuración local de editores (`.vscode/`, `.idea/`). [web:70][web:71]  
+- Archivos temporales generados por el sistema operativo (`.DS_Store`, `Thumbs.db`).
+- Archivos de compilación o build (`build/`, `dist/`).
+- Entornos virtuales (`venv/`, `.env/`).  
+- Archivos de configuración local de editores (`.vscode/`, `.idea/`).
 
-Esto mantiene el repositorio más limpio y enfocado solo en los archivos relevantes del proyecto. [web:70][web:72]
+Esto mantiene el repositorio más limpio y enfocado solo en los archivos relevantes del proyecto.
 
 ### ¿Cómo funciona?
 
-El archivo `.gitignore` funciona mediante **patrones de texto**, uno por línea, que le dicen a Git qué rutas debe excluir. [web:68][web:76]
+El archivo `.gitignore` funciona mediante **patrones de texto**, uno por línea, que le dicen a Git qué rutas debe excluir.
 
 Algunas reglas básicas:
 
 - `nombre_archivo.ext` ignora un archivo concreto.  
 - `carpeta/` ignora todo el contenido de una carpeta.  
-- `*.log` ignora todos los archivos con extensión `.log`. [web:68]  
-- El signo de exclamación `!` sirve para “des‑ignorar” algo que antes estaba ignorado. [web:68]  
+- `*.log` ignora todos los archivos con extensión `.log`.
+- El signo de exclamación `!` sirve para “des‑ignorar” algo que antes estaba ignorado. 
 
 Ejemplos:
 
@@ -114,4 +113,11 @@ venv/
 # Ignora todos los .txt excepto README.txt
 *.txt
 !README.txt
+```
+### ¿Por qué es importante en proyectos de desarrollo?
+El uso correcto de `.gitignore` es clave por varias razones:
+  - Seguridad: evita subir archivos sensibles como credenciales en `.env` o configuraciones privadas.
+  - Orden: impide que archivos temporales o generados inflen el historial del repositorio. 
+  - Rendimiento: repositorios más pequeños se clonan y gestionan más rápido.
+  - Colaboración: todos los miembros del equipo comparten un mismo criterio sobre qué se versiona y qué no, reduciendo conflictos y ruido en los commits.
 
