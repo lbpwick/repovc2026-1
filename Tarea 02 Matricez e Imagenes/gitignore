@@ -1,0 +1,30 @@
+# Ignorar imágenes generadas
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+images/
+outputs/
+
+# Ambientes virtuales
+.env
+.venv
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
